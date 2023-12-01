@@ -1,0 +1,48 @@
+@media(max-width:991px) {
+    .nav-item {
+        width: fit-content;
+    }
+}
+
+@media(max-width:768px) {
+    .about .count {
+        border: none !important;
+        width: 50%;
+    }
+    .brand .brands-logo>div {
+        justify-content: center !important;
+    }
+    .brand .brand-content {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .contact p,
+    .contact form {
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width:568px) {
+.about .count {
+    width: 50%;
+}
+    
+    .header {
+        background-position-x: -235px;
+    }
+    .header-content {
+        align-items: start !important;
+    }
+    h1 {
+        font-size: 45px !important;
+    }
+    .contact p,
+    .contact form {
+        width: 90% !important;
+    }
+    .about .custom-btn i{
+        padding: 10px !important;
+    }
+    
+}
